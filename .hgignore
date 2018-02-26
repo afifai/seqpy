@@ -1,0 +1,21 @@
+syntax: glob
+*.orig
+*.rej
+*~
+*.o
+*.pyc
+*.pyo
+*.bak
+*.swp
+*.swo
+*.so
+*.dll
+.svn/
+hg-push.sh
+hg-pull.sh
+test/
+xxx_*
+__pycache__
+
+syntax: regexp
+.*\#.*\#$
